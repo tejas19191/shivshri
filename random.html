@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+    <script type="text/javascript">
+        // List of YouTube video URLs
+        var videos = [
+            "https://www.youtube.com/watch?v=CxwJrzEdw1U",
+            "https://www.youtube.com/watch?v=2b2gJu-g3qE",
+            "https://www.youtube.com/watch?v=eoTpdTU8nTA"
+        ];
+
+        // Redirect to a random video
+        window.location.href = videos[Math.floor(Math.random() * videos.length)];
+    </script>
+</head>
+<body>
+    <p>Redirecting to a random video...</p>
+</body>
+</html>
